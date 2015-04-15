@@ -339,7 +339,7 @@ xd> stream create kafka-source-test --definition "kafka --zkconnect=localhost:21
 
 And that's it! Naturally, this is just a tase of Spring XD, but hopefully you'll agree the possibilities are tantalizing.
 
-## Deploying a Kafka Cluster with Lattice
+## Deploying a Kafka Server with Lattice and Docker
 It's easy to get an example Kafka installation all setup using [Lattice](http://lattice.cf), a distributed runtime that supports, among other container formats, the very popular Docker image format. [There's a Docker image provided by Spotify that sets up a collocated Zookeeper and Kafka image](https://github.com/spotify/docker-kafka). You can easily deploy this to a Lattice cluster, as follows:
 
 ```bash
